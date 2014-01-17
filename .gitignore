@@ -1,0 +1,4 @@
+node_modules
+.idea
+karma-parse-sinon.iml
+**/.DS_Store
