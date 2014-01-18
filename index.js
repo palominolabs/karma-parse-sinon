@@ -12,4 +12,4 @@ var framework = function (files) {
 };
 
 framework.$inject = ['config.files'];
-module.exports = {'framework:sinon': ['factory', framework]};
+module.exports = {'framework:parse-sinon': ['factory', framework]};
