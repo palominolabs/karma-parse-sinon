@@ -1,4 +1,4 @@
-# karma-parse-sinon[![Build Status](https://secure.travis-ci.org/palominolabs/karma-parse-sinon.png?branch=master)](http://travis-ci.org/palominolabs/karma-parse-sinon)
+# karma-parse-sinon [![Build Status](https://secure.travis-ci.org/palominolabs/karma-parse-sinon.png?branch=master)](http://travis-ci.org/palominolabs/karma-parse-sinon)
 
 A [Karma](http://karma-runner.github.io) plugin for unit testing [Parse Cloud Code](https://www.parse.com/docs/cloud_code_guide).
 
