@@ -2,9 +2,7 @@
 
 var should = require('should'),
     sinon = require('sinon'),
-    Parse = require('parse').Parse;
-
-Parse.Cloud = require('.././lib/cloud.js');
+    Parse = require('../lib/cloud.js').Parse;
 
 describe('Parse Cloud Code', function () {
     beforeEach(function (done) {

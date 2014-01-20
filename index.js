@@ -7,8 +7,9 @@ var pattern = function (file) {
 };
 
 var framework = function (files) {
-    files.unshift(pattern(path.resolve(require.resolve('sinon'), '../../pkg/sinon.js')));
     files.unshift(pattern(__dirname + '/lib/cloud.js'));
+    files.unshift(pattern(path.resolve(require.resolve('sinon'), '../../pkg/sinon.js')));
+    files.unshift(pattern(path.resolve(require.resolve('parse'), '../../build/parse-latest.js')));
 };
 
 framework.$inject = ['config.files'];

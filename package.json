@@ -7,18 +7,21 @@
     "type": "git",
     "url": "https://github.com/palominolabs/karma-parse-sinon.git"
   },
+  "author": "Tyler Wolf <tyler@palominolabs.com>",
   "dependencies": {
-    "sinon": "~1.7.3"
+    "sinon": "~1.7.3",
+    "parse": "~1.2.13"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.7.2",
     "should": "~2.1.0",
     "mocha": "~1.15.0",
-    "grunt-simple-mocha": "~0.4.0",
-    "parse": "~1.2.13"
+    "grunt-simple-mocha": "~0.4.0"
   },
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/palominolabs/karma-parse-sinon/issues"
 }

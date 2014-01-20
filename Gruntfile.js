@@ -11,10 +11,9 @@ module.exports = function (grunt) {
 
 		simplemocha: {
 			options: {
-				globals: ['should', 'Parse'],
+				globals: ['should', 'sinon', 'Parse'],
 				timeout: 3000,
 				ignoreLeaks: false,
-			//	grep: '*-test',
 				ui: 'bdd',
 				reporter: 'dot'
 			},
