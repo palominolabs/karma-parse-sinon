@@ -58,7 +58,7 @@ describe('hello', function () {
         response.error.args[0][0].should.equal('Go away.');
     });
 
-    it('errors when feeling unhelpful', function () {
+    it('errors when user is rude', function () {
         var user = new Parse.User();
         user.set('disposition', 'rude');
 
