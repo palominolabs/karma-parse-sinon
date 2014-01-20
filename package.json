@@ -1,7 +1,7 @@
 {
   "name": "karma-parse-sinon",
   "main": "./index.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Karma plugin for testing Parse Cloud Code.",
   "repository": {
     "type": "git",
